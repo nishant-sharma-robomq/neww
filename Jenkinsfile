@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     def imageName = 'my-custom-image'
-                    def dockerfilePath = 'Dockerfile'
+                    def dockerfilePath = 'dockerfile'
                     
                     // Build the Docker image using Docker CLI
                     sh "docker build -t ${imageName} -f ${dockerfilePath} ."
