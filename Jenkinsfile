@@ -1,14 +1,24 @@
 pipeline {
     agent any
-    
+
     stages {
-        stage('Add Numbers') {
+        stage('Addition') {
             steps {
                 script {
-                    def num1 = 5
-                    def num2 = 7
-                    def sum = num1 + num2
-                    echo "Sum of ${num1} and ${num2} is ${sum}"
+                    def userInput1 = input(
+                        message: 'Enter the first number:',
+                        parameters: [string(defaultValue: '', description: 'First number', name: 'NUMBER1')]
+                    )
+                    def userInput2 = input(
+                        message: 'Enter the second number:',
+                        parameters: [string(defaultValue: '', description: 'Second number', name: 'NUMBER2')]
+                    )
+
+                    def number1 = userInput1.toInteger()
+                    def number2 = userInput2.toInteger()
+                    def sum = number1 + number2
+
+                    echo "The sum of ${number1} and ${number2} is ${sum}"
                 }
             }
         }
