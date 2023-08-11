@@ -15,7 +15,12 @@ pipeline {
                     def sum = number1 + number2
 
                     echo "The sum of ${number1} and ${number2} is ${sum}"
-                    touch apps/abc.txt
+                    
+                    // Create the directory if it doesn't exist
+                    sh "mkdir -p apps"
+                    
+                    // Create an empty file named abc.txt
+                    writeFile file: "apps/abc.txt", text: "hello"
                 }
             }
         }
