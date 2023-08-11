@@ -2,15 +2,13 @@ pipeline {
     agent any
     
     stages {
-        stage('Build Docker Image') {
+        stage('Add Numbers') {
             steps {
                 script {
-                    def imageName = 'my-custom-image'
-                    sh 'ls'
-                    def dockerfilePath = '.'
-                    
-                    // Build the Docker image using Docker CLI
-                    sh "docker build -t ${imageName} ."
+                    def num1 = 5
+                    def num2 = 7
+                    def sum = num1 + num2
+                    echo "Sum of ${num1} and ${num2} is ${sum}"
                 }
             }
         }
