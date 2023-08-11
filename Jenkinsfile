@@ -9,7 +9,7 @@ pipeline {
                     def dockerfilePath = 'Dockerfile'
                     
                     // Build the Docker image using Docker CLI
-                    sh "docker build -t ${imageName} ."
+                    sh "docker build -t ${imageName} -f ${dockerfilePath} ."
                 }
             }
         }
