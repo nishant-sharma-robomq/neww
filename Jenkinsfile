@@ -15,6 +15,10 @@ pipeline {
                     def sum = number1 + number2
 
                     echo "The sum of ${number1} and ${number2} is ${sum}"
+                    
+                    dir("aman") {
+                        writeFile file: "abc.txt", text: "Hello, this is the content of abc.txt."
+                    }
                 }
             }
         }
