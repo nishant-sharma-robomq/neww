@@ -5,14 +5,8 @@ pipeline {
         stage('Addition') {
             steps {
                 script {
-                    def userInput1 = input(
-                        message: 'Enter the first number:',
-                        parameters: [string(defaultValue: '', description: 'First number', name: 'NUMBER1')]
-                    )
-                    def userInput2 = input(
-                        message: 'Enter the second number:',
-                        parameters: [string(defaultValue: '', description: 'Second number', name: 'NUMBER2')]
-                    )
+                    def userInput1 = ${NUMBER1}
+                    def userInput2 = ${NUMBER2}
 
                     def number1 = userInput1.toInteger()
                     def number2 = userInput2.toInteger()
