@@ -17,6 +17,8 @@ pipeline {
                     echo "The sum of ${number1} and ${number2} is ${sum}"
                     
                     // Create the directory if it doesn't exist
+                    sh "pwd"
+                    sh "ls"
                     sh "mkdir -p apps"
                     
                     // Create an empty file named abc.txt
