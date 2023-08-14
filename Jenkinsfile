@@ -21,6 +21,14 @@ pipeline {
                     sh "ls"
                     sh "mkdir -p apps"
                     
+                }
+            }
+        }
+        
+        stage('creating file and storing data') {
+            steps {
+                script {
+                    
                     // Create an empty file named abc.txt
                     writeFile file: "apps/abc.txt", text: "hello"
                 }
