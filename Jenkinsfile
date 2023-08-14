@@ -35,7 +35,8 @@ pipeline {
             steps {
                 script {
                     // Create an empty file named abc.txt
-                    writeFile file: "apps/abc.txt", text: "hello, The sum of number is"
+                    def fileContent = readFile(file: 'apps/sum.txt').trim()
+                    writeFile file: "apps/abc.txt", text: "hello, The sum of number is ${fileContent}"
                 }
             }
         }
@@ -47,7 +48,6 @@ pipeline {
                     sh "pwd"
                     sh "ls"
                     sh "cat apps/abc.txt"
-                    sh "cat apps/sum.txt"
                 }
             }
         }
