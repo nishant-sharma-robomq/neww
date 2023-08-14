@@ -45,7 +45,7 @@ pipeline {
                     // Printing file data
                     sh "pwd"
                     sh "ls"
-                    sh "cat abc.txt"
+                    sh "cat apps/abc.txt"
                     
                 }
             }
