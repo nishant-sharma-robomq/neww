@@ -37,16 +37,16 @@ pipeline {
             steps {
                 script {
                     // Create an empty file named abc.txt
-                    writeFile file: "apps/abc.txt", text: "hello"
+                    writeFile file: "apps/abc.txt", text: "hello, The sum of number is ${sum}"
                 }
             }
         }
 
-        stage('Appending Data to File') {
+        stage('Priniting file data') {
             steps {
                 script {
-                    // Append a message to the existing file
-                    writeFile file: "apps/abc.txt", text: "hello, The sum of numbers is ${sum}\n", append: true
+                    // Printing file data
+                    
                 }
             }
         }
