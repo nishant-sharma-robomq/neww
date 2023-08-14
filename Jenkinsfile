@@ -15,9 +15,6 @@ pipeline {
                     def sum = number1 + number2
 
                     echo "The sum of ${number1} and ${number2} is ${sum}"
-
-                    // Store the sum in a file
-                    writeFile file: "apps/sum.txt", text: "${sum}"
                 }
             }
         }
@@ -46,9 +43,12 @@ pipeline {
             steps {
                 script {
                     // Printing file data
+                    sh "pwd"
+                    sh "ls"
                     
                 }
             }
         }
+
     }
 }
