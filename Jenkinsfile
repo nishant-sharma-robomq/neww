@@ -15,6 +15,7 @@ pipeline {
                     def sum = number1 + number2
 
                     echo "The sum of ${number1} and ${number2} is ${sum}"
+                     writeFile file: "apps/sum.txt", text: "${sum}"
                 }
             }
         }
@@ -46,7 +47,7 @@ pipeline {
                     sh "pwd"
                     sh "ls"
                     sh "cat apps/abc.txt"
-                    
+                    sh "cat apps/sum.txt"
                 }
             }
         }
