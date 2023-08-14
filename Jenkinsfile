@@ -15,22 +15,38 @@ pipeline {
                     def sum = number1 + number2
 
                     echo "The sum of ${number1} and ${number2} is ${sum}"
-                    
+
+                    // Store the sum in a file
+                    writeFile file: "apps/sum.txt", text: "${sum}"
+                }
+            }
+        }
+
+        stage('Creating Directory') {
+            steps {
+                script {
                     // Create the directory if it doesn't exist
                     sh "pwd"
                     sh "ls"
                     sh "mkdir -p apps"
-                    
                 }
             }
         }
-        
-        stage('creating file and storing data') {
+
+        stage('Creating File and Storing Data') {
             steps {
                 script {
-                    
                     // Create an empty file named abc.txt
                     writeFile file: "apps/abc.txt", text: "hello"
+                }
+            }
+        }
+
+        stage('Appending Data to File') {
+            steps {
+                script {
+                    // Append a message to the existing file
+                    writeFile file: "apps/abc.txt", text: "hello, The sum of numbers is ${sum}\n", append: true
                 }
             }
         }
