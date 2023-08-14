@@ -34,7 +34,7 @@ pipeline {
             steps {
                 script {
                     // Create an empty file named abc.txt
-                    writeFile file: "apps/abc.txt", text: "hello, The sum of number is ${sum}"
+                    writeFile file: "apps/abc.txt", text: "hello, The sum of number is"
                 }
             }
         }
@@ -45,6 +45,7 @@ pipeline {
                     // Printing file data
                     sh "pwd"
                     sh "ls"
+                    sh "cat abc.txt"
                     
                 }
             }
