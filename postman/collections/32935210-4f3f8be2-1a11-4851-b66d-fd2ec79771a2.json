@@ -44,11 +44,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://example1.com",
+							"raw": "https://example.co",
 							"protocol": "https",
 							"host": [
 								"example",
-								"com"
+								"co"
 							]
 						}
 					},
