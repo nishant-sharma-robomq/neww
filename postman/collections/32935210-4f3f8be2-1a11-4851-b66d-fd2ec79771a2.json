@@ -64,12 +64,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://www.robomq.io",
+							"raw": "https://www.robomq.com",
 							"protocol": "https",
 							"host": [
 								"www",
 								"robomq",
-								"io"
+								"com"
 							]
 						}
 					},
