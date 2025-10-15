@@ -79,7 +79,20 @@
 		},
 		{
 			"name": "PostRequestFolder",
-			"item": [],
+			"item": [
+				{
+					"name": "other",
+					"id": "32935210-ab50059c-e54b-4a16-8514-1b91cf935f5b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "32935210-97e67a73-54e5-4ea5-a062-dc0022cf57be"
 		}
 	]
