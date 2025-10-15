@@ -21,10 +21,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://g123.com",
+							"raw": "https://g123test.com",
 							"protocol": "https",
 							"host": [
-								"g123",
+								"g123test",
 								"com"
 							]
 						}
