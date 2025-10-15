@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "e86a76e0-182c-42f5-ac5f-17873bd560a8",
+		"_postman_id": "40871e14-3100-4881-bc21-befcdbd65acd",
 		"name": "MainCollection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "32935210"
@@ -42,6 +42,22 @@
 							"host": [
 								"example",
 								"com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://robomq.io",
+							"protocol": "https",
+							"host": [
+								"robomq",
+								"io"
 							]
 						}
 					},
