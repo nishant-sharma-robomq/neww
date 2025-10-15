@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "32935210-1891e69e-9cf6-42c2-8511-0ccacdbba9c5",
+		"name": "MainCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetRequestFolder",
+			"item": [
+				{
+					"name": "get Google",
+					"id": "32935210-b7cdb5bb-25c9-4d56-be16-5249f63603cb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://google.com",
+							"protocol": "https",
+							"host": [
+								"google",
+								"com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Example",
+					"id": "32935210-00c74bb7-55b9-45f2-9ecd-7f1ee5b1ca75",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://example.com",
+							"protocol": "https",
+							"host": [
+								"example",
+								"com"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "32935210-ea6ba92e-b554-47b6-b77a-6d3ca6d3d9b9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://robomq123.io",
+							"protocol": "https",
+							"host": [
+								"robomq123",
+								"io"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "32935210-03466683-3d1f-484f-b503-ada917f10f9f"
+		},
+		{
+			"name": "PostRequestFolder",
+			"item": [],
+			"id": "32935210-7da11807-e3cf-4e28-bb54-cb338f9aae34"
+		}
+	]
+}
