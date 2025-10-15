@@ -21,11 +21,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://g123.com",
+							"raw": "https://g123.io",
 							"protocol": "https",
 							"host": [
 								"g123",
-								"com"
+								"io"
 							]
 						}
 					},
