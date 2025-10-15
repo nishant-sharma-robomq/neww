@@ -88,7 +88,15 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "http://robomq.io",
+							"protocol": "http",
+							"host": [
+								"robomq",
+								"io"
+							]
+						}
 					},
 					"response": []
 				}
