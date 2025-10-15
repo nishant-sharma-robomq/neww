@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "32935210-4f3f8be2-1a11-4851-b66d-fd2ec79771a2",
+		"name": "MainCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetRequestFolder",
+			"item": [
+				{
+					"name": "get Google",
+					"id": "32935210-c1bca6a5-4aab-4e5e-9c65-721bde23f124",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://g123.io",
+							"protocol": "https",
+							"host": [
+								"g123",
+								"io"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Example",
+					"id": "32935210-73542dff-56b9-4866-a28a-f9a20e5ce347",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://example.co",
+							"protocol": "https",
+							"host": [
+								"example",
+								"co"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "32935210-74a707b7-f2a1-4420-87a2-4cd0c75c9753",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.robomq10.io",
+							"protocol": "https",
+							"host": [
+								"www",
+								"robomq10",
+								"io"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "32935210-b695770b-5e09-4d40-aa5c-48ee82763fb6"
+		},
+		{
+			"name": "PostRequestFolder",
+			"item": [
+				{
+					"name": "other",
+					"id": "32935210-ab50059c-e54b-4a16-8514-1b91cf935f5b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://robomq.io",
+							"protocol": "http",
+							"host": [
+								"robomq",
+								"io"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "32935210-97e67a73-54e5-4ea5-a062-dc0022cf57be"
+		}
+	]
+}
