@@ -64,10 +64,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://robomq-test.io",
+							"raw": "https://robomq-conflict.io",
 							"protocol": "https",
 							"host": [
-								"robomq-test",
+								"robomq-conflict",
 								"io"
 							]
 						}
