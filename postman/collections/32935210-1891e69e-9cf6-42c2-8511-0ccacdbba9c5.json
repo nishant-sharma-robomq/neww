@@ -81,6 +81,28 @@
 			"name": "PostRequestFolder",
 			"item": [],
 			"id": "32935210-7da11807-e3cf-4e28-bb54-cb338f9aae34"
+		},
+		{
+			"name": "https://0ca78e92-a38b-4c7e-8add-8668f5b58d4c.mock.pstmn.io",
+			"id": "32935210-476618ff-10d6-4007-87ec-a10927bae31c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://0ca78e92-a38b-4c7e-8add-8668f5b58d4c.mock.pstmn.io",
+					"protocol": "https",
+					"host": [
+						"0ca78e92-a38b-4c7e-8add-8668f5b58d4c",
+						"mock",
+						"pstmn",
+						"io"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
