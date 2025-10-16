@@ -102,7 +102,109 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"id": "32935210-51331e56-2c77-4f9b-8f34-f00cb8b72835",
+					"name": "https://0ca78e92-a38b-4c7e-8add-8668f5b58d4c.mock.pstmn.io-student",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://0ca78e92-a38b-4c7e-8add-8668f5b58d4c.mock.pstmn.io/student",
+							"protocol": "https",
+							"host": [
+								"0ca78e92-a38b-4c7e-8add-8668f5b58d4c",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"student"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 16 Oct 2025 04:41:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=14b82fadc6e29202"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=05216e57745380c5"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "120"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "118"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1760589728"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"10f-iQ/6cTHOHhQG6g/jbUGqClHk7Zg\""
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-envoy-upstream-service-time",
+							"value": "130"
+						},
+						{
+							"key": "cf-cache-status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "__cf_bm=6Mb76sOa47qpq_XEDH7qHCqTz5hACiiH8XRHvzKb.K8-1760589695-1.0.1.1-I9fzxnpBdXLbTDRX36IwtfI0q9WnwMayM3qpq4W2hztRdM3OMgf3v07OI_GNzWNdjQBKJThO3G29QZrLc16qyvSumXGzecuAIqSVKyrbAgE; path=/; expires=Thu, 16-Oct-25 05:11:35 GMT; domain=.pstmn.io; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "98f4e2798b4d1c55-DEL"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"error\": {\n        \"name\": \"mockRequestNotFoundError\",\n        \"message\": \"To mock this request add an example response for the mock server to return. Learn more here: https://learning.postman.com/docs/sending-requests/response-data/examples/#add-an-example\",\n        \"header\": \"You need an example\"\n    }\n}"
+				}
+			]
 		}
 	]
 }
