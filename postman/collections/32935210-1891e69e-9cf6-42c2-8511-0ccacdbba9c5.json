@@ -202,7 +202,7 @@
 					],
 					"cookie": [],
 					"responseTime": null,
-					"body": "{\n    \"error\": {\n        \"name\": \"mockRequestNotFoundError\",\n        \"message\": \"To mock this request add an example response for the mock server to return. Learn more here: https://learning.postman.com/docs/sending-requests/response-data/examples/#add-an-example\",\n        \"header\": \"You need an example\"\n    }\n}"
+					"body": "{\n    \"test\": \"test1\"\n}"
 				}
 			]
 		}
