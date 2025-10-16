@@ -303,7 +303,7 @@
 					],
 					"cookie": [],
 					"responseTime": null,
-					"body": "{\n    \"error\": {\n        \"name\": \"mockRequestNotFoundError\",\n        \"message\": \"Double check your method and the request path and try again. Learn more here: https://learning.postman.com/docs/design-apis/mock-apis/matching-algorithm/\",\n        \"header\": \"No matching requests\"\n    }\n}"
+					"body": "{\n    \"test\": \"test3\",\n    \"red\": a\n}"
 				}
 			]
 		}
